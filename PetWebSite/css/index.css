@@ -1,0 +1,93 @@
+/*使用外部字体*/
+@font-face {
+    font-family: BebasNeue-webfont;
+    src: url("../fonts/BebasNeue-webfont.ttf");
+}
+
+a, address, b, big, blockquote, body, center, cite, code, dd, del, div, dl, dt, em, fieldset, font, form, h1, h2, h3, h4, h5, h6, html, i, iframe, img, ins, label, legend, li, ol, p, pre, small, span, strong, u, ul, var{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+
+    list-style: none;
+}
+/*上面部分是基础的设置*/
+
+body{
+
+    background: url("../images/pattern.gif");
+}
+
+#head-line{
+
+    height: 3px;
+    background-color: red;
+}
+
+#nav{
+
+    text-align: center;
+
+}
+
+#nav ul{
+    display: inline-block;
+
+}
+
+#nav ul li{
+    float: left;
+}
+#nav ul li a{
+    display: inline-block;
+    font-size: 40px;
+    color: white;
+    font-family: "BebasNeue-webfont";
+    width: 200px;
+    margin-right: 20px;
+}
+
+#nav ul li a:hover{
+    background-color: white;
+    color: black;
+}
+
+#list{
+    text-align: center;
+    background-color: white;
+}
+#list .dom{
+
+    display: inline-block;
+
+    width: 382px;
+    text-align: left;
+    margin: 20px;
+}
+#list .dom p{
+    font-family: "sans-serif";
+    color: #999;
+}
+
+#list .dom a{
+    display: inline-block;
+    margin-top: 5px;
+    font-family: "BebasNeue-webfont";
+    background-color: #C0392B;
+    color: white;
+    width: 170px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 30px;
+    text-align: center;
+}
+#list .dom a:hover{
+    background:rgb(11,17,15);
+}
